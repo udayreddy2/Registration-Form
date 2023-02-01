@@ -1,0 +1,68 @@
+/* Write your CSS code here */
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px 0px #9aa5b1;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: 'Roboto';
+  border: 0px solid;
+}
+
+.label {
+  color: #475569;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.input {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.25px solid #cbd2d9;
+}
+
+.button {
+  align-self: center;
+  background-color: #ea580c;
+  border: 0px solid;
+  color: #ffffff;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.error {
+  font-size: 12px;
+  color: #ff0b37;
+  margin: 1px;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
